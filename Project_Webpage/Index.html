@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Interface</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+    <h1>CS-242 IR Project Group 15</h1>
+    <div class="search-area">
+        <div class="search-box">
+            <h2>Enter text for PyLucene</h2>
+            <input type="text" id="pyLuceneInput" placeholder="Enter text...">
+            <button onclick="submitPyLucene()">Submit</button>
+            <p id="pyLuceneOutput">Output:</p>
+        </div>
+        <div class="search-box">
+            <h2>Enter text for BERT</h2>
+            <input type="text" id="bertInput" placeholder="Enter text...">
+            <button onclick="submitBERT()">Submit</button>
+            <p id="bertOutput">Output:</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
