@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .search-area {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .search-box {
+    border: 1px solid black;
+    padding: 20px;
+    width: 40%;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
