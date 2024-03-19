@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERT Query Interface</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Team Members Cards Container -->
+    <div id="team-container">
+        <h2>Team Members</h2>
+        <div class="team-card">
+            <ul>
+                <li>Vidit Naik</li>
+                <li>Sai Sreekar Sarvepalli</li>
+                <li>Vatsal Abhani</li>
+                <li>Pounima Shinde</li>
+                <li>Madhura Patil</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="app">
+        <h1>BERT Query Interface</h1>
+        <input type="text" id="queryInput" placeholder="Enter your query here">
+        <button onclick="fetchQueryResults()">Submit Query</button>
+        <h2>Results:</h2>
+        <div id="results"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

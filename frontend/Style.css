@@ -1,0 +1,63 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #E0E0E0; /* Light text */
+  font-family: Arial, sans-serif;
+  margin: 0; /* Ensure there is no default margin */
+  padding: 0; /* Ensure there is no default padding */
+  display: flex; /* Make the body a flex container */
+}
+
+#team-container {
+  background-color: #333; /* Give the container a distinct background */
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 250px; /* Fixed width for the team container */
+}
+
+.team-card ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.team-card li {
+  padding: 8px 0; /* Add padding to list items for spacing */
+}
+
+#app {
+  flex-grow: 1; /* App container will fill the remaining space */
+  margin-left: 20px; /* Space between team-container and app */
+  padding: 20px;
+}
+
+input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6200EE;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700B3;
+}
+
+#results {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
